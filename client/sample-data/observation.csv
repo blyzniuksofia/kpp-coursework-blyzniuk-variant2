@@ -1,0 +1,3 @@
+location_id; indicator; observed_value; limit_value; scale_score; duration_score; observed_date
+1,Нітрати,45.5,40.0,40.0,20.0,2026-10-17
+2,Діоксид сірки SO2,0.8,0.5,50.0,40.0,2026-10-18
