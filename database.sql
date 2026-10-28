@@ -54,8 +54,8 @@ VALUES
 
 INSERT INTO incident (observation_id, status, f1, f2, f3, critical_index)
 VALUES
-    (1, 'ПЕРЕВІРЕНО', 60.0, 40.0, 30.0, 45.5),
-    (2, 'РЕАГУВАННЯ', 80.0, 70.0, 50.0, 69.0);
+    (1, 'VERIFIED', 60.0, 40.0, 30.0, 45.5),
+    (2, 'RESPONSE', 80.0, 70.0, 50.0, 69.0);
 
 INSERT INTO response_measure (incident_id, description, planned_date)
 VALUES
