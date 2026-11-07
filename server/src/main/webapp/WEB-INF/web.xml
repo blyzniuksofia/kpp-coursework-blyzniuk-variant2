@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="4.0">
+    <servlet><servlet-name>LocationServlet</servlet-name><servlet-class>ua.edu.nupp.kpp.server.LocationServlet</servlet-class></servlet>
+    <servlet-mapping><servlet-name>LocationServlet</servlet-name><url-pattern>/locations</url-pattern></servlet-mapping>
+    <servlet><servlet-name>ObservationServlet</servlet-name><servlet-class>ua.edu.nupp.kpp.server.ObservationServlet</servlet-class></servlet>
+    <servlet-mapping><servlet-name>ObservationServlet</servlet-name><url-pattern>/observations</url-pattern></servlet-mapping>
+    <servlet><servlet-name>IncidentServlet</servlet-name><servlet-class>ua.edu.nupp.kpp.server.IncidentServlet</servlet-class></servlet>
+    <servlet-mapping><servlet-name>IncidentServlet</servlet-name><url-pattern>/incidents</url-pattern></servlet-mapping>
+    <servlet><servlet-name>ResponseMeasureServlet</servlet-name><servlet-class>ua.edu.nupp.kpp.server.ResponseMeasureServlet</servlet-class></servlet>
+    <servlet-mapping><servlet-name>ResponseMeasureServlet</servlet-name><url-pattern>/responses</url-pattern></servlet-mapping>
+</web-app>
